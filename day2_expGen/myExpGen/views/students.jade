@@ -1,0 +1,30 @@
+extends layout
+
+block content
+    h1 Student List
+
+    form(action="/students", method="get")
+        select(name="branch", onchange="this.form.submit()")
+            option(value="") All Branches
+            each branch in branches
+                option(value=branch, selected=branch === selectedBranch)= branch
+
+    if students.length
+        table(border="1")
+            tr
+                th ID
+                th Name
+                th Class
+                th Branch
+                th Action
+            each student in students
+                tr
+                    td= student.rollno
+                    td= student.username
+                    td= student.class
+                    td= student.branch
+                    td
+                        form(action="/students/delete/" + student.rollno, method="post")
+                            button(type="submit") Delete
+    else
+        p No students found.

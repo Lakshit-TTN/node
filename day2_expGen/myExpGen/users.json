@@ -1,0 +1,19 @@
+[
+  {
+    "id": 2,
+    "username": "jane_smith",
+    "email": "Jane@gmail.com"
+  },
+  {
+    "id": "3",
+    "username": "aa",
+    "email": "lakshit24s@gmail.com",
+    "created_on": "2025-03-18T10:10:43.996Z"
+  },
+  {
+    "id": "3",
+    "username": "l",
+    "email": "lak1@gmail.com",
+    "created_on": "2025-03-18T10:13:14.538Z"
+  }
+]

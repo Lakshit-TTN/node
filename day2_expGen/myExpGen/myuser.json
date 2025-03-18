@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "username": "john_doe",
+      "password": "123456",
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "password": "abcdef",
+      "firstName": "Jane",
+      "lastName": "Smith"
+    },
+    {
+      "id": 3,
+      "username": "michael_jackson",
+      "password": "moonwalk",
+      "firstName": "Michael",
+      "lastName": "Jackson"
+    },
+    {
+      "id": 4,
+      "username": "emma_watson",
+      "password": "harrypotter",
+      "firstName": "Emma",
+      "lastName": "Watson"
+    },
+    {
+      "id": 5,
+      "username": "elon_musk",
+      "password": "tesla123",
+      "firstName": "Elon",
+      "lastName": "Musk"
+    },
+    {
+      "id": 6,
+      "username": "steve_jobs",
+      "password": "appleforever",
+      "firstName": "Steve",
+      "lastName": "Jobs"
+    },
+    {
+      "id": 7,
+      "username": "sundar_pichai",
+      "password": "google123",
+      "firstName": "Sundar",
+      "lastName": "Pichai"
+    },
+    {
+      "id": 8,
+      "username": "mark_zuckerberg",
+      "password": "facebookpass",
+      "firstName": "Mark",
+      "lastName": "Zuckerberg"
+    }
+  ]
+  
