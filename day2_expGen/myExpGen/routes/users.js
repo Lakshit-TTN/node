@@ -60,16 +60,16 @@ router.post("/delete/:id", (req, res) => {
 });
 
 
-// router.get('/search', (req, res) => {
-//     const query = req.query.q ? req.query.q.toLowerCase() : "";
-//     if (!query) return res.json([]);
+router.get('/search', (req, res) => {
+    const query = req.query.q ? req.query.q.toLowerCase() : "";
+    if (!query) return res.json([]);
 
-//     const users = readMyUsers().filter(user =>
-//         user.username.toLowerCase().includes(query)
-//     );
+    const users = readMyUsers().filter(user =>
+        user.username.toLowerCase().includes(query)
+    );
 
-//     res.json(users);
-// });
+    res.json(users);
+});
 
 
 router.get("/searchmyuser", (req, res) => {
